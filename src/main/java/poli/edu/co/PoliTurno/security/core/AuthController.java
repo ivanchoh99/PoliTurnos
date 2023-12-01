@@ -1,13 +1,12 @@
-package poli.edu.co.PoliTurno.controller;
+package poli.edu.co.PoliTurno.security.core;
 
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MainController {
+public class AuthController {
 
-    @GetMapping("/")
+    @GetMapping("/login")
     public String homePage(){
         return "index";
     }
