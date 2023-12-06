@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head-fragment(title)">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet"
+            type="text/css"
+            media="all"
+            href="../../../static/style.css"
+            th:href="@{/style.css}">
+    <title th:text="${title}"></title>
+</head>
+</html>
