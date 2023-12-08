@@ -29,6 +29,7 @@ public class SecurityConfig {
         http.authorizeHttpRequests(
                 (authorize) -> authorize
                         .requestMatchers("/login").permitAll()
+                        .requestMatchers("/index").permitAll()
         ).formLogin(
                 form -> form
                         .defaultSuccessUrl("/home")
