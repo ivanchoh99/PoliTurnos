@@ -1,3 +1,1 @@
-FROM ubuntu/jre
-ADD target/poli-turnos.jar poli-turnos.jar
-ENTRYPOINT ["java", "-jar", "/poli-turnos.jar"]
+FROM mongo
