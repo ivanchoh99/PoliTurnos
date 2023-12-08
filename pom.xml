@@ -105,6 +105,8 @@
                 </configuration>
             </plugin>
         </plugins>
+
+        <finalName>poli-turnos</finalName> 
     </build>
 
 </project>
