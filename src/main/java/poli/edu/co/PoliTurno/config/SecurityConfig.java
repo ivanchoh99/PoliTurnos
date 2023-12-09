@@ -54,6 +54,4 @@ public class SecurityConfig {
                 .withUser("admin").password("password").roles("ADMIN");
     }
 
-
-//     cambio en el archivo de seguridad
 }
